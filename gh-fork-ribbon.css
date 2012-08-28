@@ -1,8 +1,7 @@
-#github-fork-ribbon {
-    /* Pin the position to the top right corner */
+/* Left will inherit from right (so we don't need to duplicate code */
+.github-fork-ribbon {
+    /* The right and left lasses determine the side we attach our banner to */
     position: absolute;
-    top: 106px;
-    right: -5px;
 
     /* Add a bit of padding to give some substance outside the "stitching" */
     padding: 2px 0;
@@ -19,25 +18,11 @@
     background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.15));
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#000000', EndColorStr='#000000');
 
-
-    /* Rotate the banner through 45 degrees */
-    -webkit-transform-origin: 100% 100%;
-    -webkit-transform: rotate(45deg);
-    -moz-transform-origin: 100% 100%;
-    -moz-transform: rotate(45deg);
-    -o-transform-origin: 100% 100%;
-    -o-transform: rotate(45deg);
-    transform-origin: 100% 100%;
-    transform: rotate(45deg);
-    /* IE voodoo courtesy of http://stackoverflow.com/a/4617511/263871 */
-    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE6,IE7 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; /* IE8 */
-
     /* Add a drop shadow */
     -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
 }
-#github-fork-ribbon a {
+.github-fork-ribbon a {
     /* Set the font */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
@@ -61,4 +46,36 @@
     border-width: 1px 0;
     border-style: dotted;
     border-color: rgba(255,255,255,0.7);
+}
+
+
+.github-fork-ribbon.right {
+  /* Attach to the right of the page */
+  top: 106px;
+  right: -5px;
+
+  /* Rotate the banner 45 degrees */
+  -webkit-transform-origin: 100% 100%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform-origin: 100% 100%;
+  -moz-transform: rotate(45deg);
+  -o-transform-origin: 100% 100%;
+  -o-transform: rotate(45deg);
+  transform-origin: 100% 100%;
+  transform: rotate(45deg);
+}
+
+.github-fork-ribbon.left {
+  /* This is the result of eyeballing it (did use a pixel ruler, though) */
+  top: -36px;
+  left: -64px;
+
+  /* Rotate the banner -45 degrees */
+  -webkit-transform-origin: 100% 100%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform-origin: 100% 100%;
+  -moz-transform: rotate(-45deg);
+  -o-transform-origin: 100% 100%;
+  -o-transform: rotate(-45deg);
+  transform-origin: 100% 100%;
 }
