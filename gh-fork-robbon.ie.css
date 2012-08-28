@@ -1,0 +1,5 @@
+/* IE positioning hack (couldn't find a transform-origin alternative for IE) */
+#github-fork-ribbon {
+    top: -22px;
+    right: -22px;
+}
