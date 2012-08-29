@@ -55,27 +55,28 @@
   right: -5px;
 
   /* Rotate the banner 45 degrees */
-  -webkit-transform-origin: 100% 100%;
+  -webkit-transform-origin: right bottom;
   -webkit-transform: rotate(45deg);
-  -moz-transform-origin: 100% 100%;
+  -moz-transform-origin: right bottom;
   -moz-transform: rotate(45deg);
-  -o-transform-origin: 100% 100%;
+  -o-transform-origin: right bottom;
   -o-transform: rotate(45deg);
-  transform-origin: 100% 100%;
+  transform-origin: right bottom;
   transform: rotate(45deg);
 }
 
 .github-fork-ribbon.left {
-  /* This is the result of eyeballing it (did use a pixel ruler, though) */
-  top: -36px;
-  left: -64px;
+  /* Attach to the left of the page */
+  top: 106px;
+  left: -5px;
 
   /* Rotate the banner -45 degrees */
-  -webkit-transform-origin: 100% 100%;
+  -webkit-transform-origin: left bottom;
   -webkit-transform: rotate(-45deg);
-  -moz-transform-origin: 100% 100%;
+  -moz-transform-origin: left bottom;
   -moz-transform: rotate(-45deg);
-  -o-transform-origin: 100% 100%;
+  -o-transform-origin: left bottom;
   -o-transform: rotate(-45deg);
-  transform-origin: 100% 100%;
+  transform-origin: left bottom;
+  transform: rotate(-45deg);
 }
