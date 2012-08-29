@@ -1,0 +1,77 @@
+.github-fork-ribbon {
+  /* The right and left lasses determine the side we attach our banner to */
+  position: absolute;
+  /* Add a bit of padding to give some substance outside the "stitching" */
+  padding: 2px 0;
+
+  /* Set the base colour */
+  background-color: #a00;
+  /* Set a gradient: transparent black at the top to almost-transparent black at the bottom */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.15)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#000000', EndColorStr='#000000');
+  /* Add a drop shadow */
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+
+  a {
+    /* Set the font */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    /* Set the text properties */
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+    /* Set the geometry. If you fiddle with these you'll also need to tweak the top and right values in #github-fork-ribbon. */
+    width: 200px;
+    line-height: 20px;
+    /* Set the layout properties */
+    display: inline-block;
+    padding: 2px 0;
+
+    /* Add "stitching" effect */
+    border-width: 1px 0;
+    border-style: dotted;
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+
+  &.right {
+    /* Attach to the right of the page */
+    top: 106px;
+    right: -5px;
+
+    /* Rotate the banner 45 degrees */
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: rotate(45deg);
+    -moz-transform-origin: right bottom;
+    -moz-transform: rotate(45deg);
+    -o-transform-origin: right bottom;
+    -o-transform: rotate(45deg);
+    transform-origin: right bottom;
+    transform: rotate(45deg);
+  }
+
+  &.left {
+    /* Attach to the left of the page */
+    top: 106px;
+    left: -5px;
+
+    /* Rotate the banner -45 degrees */
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform-origin: left bottom;
+    -moz-transform: rotate(-45deg);
+    -o-transform-origin: left bottom;
+    -o-transform: rotate(-45deg);
+    transform-origin: left bottom;
+    transform: rotate(-45deg);
+  }
+}
