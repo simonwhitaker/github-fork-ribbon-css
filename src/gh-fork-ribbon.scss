@@ -34,7 +34,7 @@ body {
     0px 2px 3px 0px rgba(0, 0, 0, 0.3)
   );
 
-  a {
+  a, a:active, a:hover {
     /* Set the font */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
