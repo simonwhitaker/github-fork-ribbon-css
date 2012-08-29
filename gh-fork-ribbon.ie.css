@@ -8,15 +8,16 @@
 /* IE voodoo courtesy of http://stackoverflow.com/a/4617511/263871 and
  * http://www.useragentman.com/IETransformsTranslator */
 .github-fork-ribbon.right {
-   /* IE8+ */
-   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865474, M12=-0.7071067811865477, M21=0.7071067811865477, M22=0.7071067811865474, SizingMethod='auto expand')";
-   /* IE6 and 7 */
-   filter: progid:DXImageTransform.Microsoft.Matrix(
-            M11=0.7071067811865474,
-            M12=-0.7071067811865477,
-            M21=0.7071067811865477,
-            M22=0.7071067811865474,
-            SizingMethod='auto expand');
+  /* IE8+ */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865474, M12=-0.7071067811865477, M21=0.7071067811865477, M22=0.7071067811865474, SizingMethod='auto expand')";
+  /* IE6 and 7 */
+  filter: progid:DXImageTransform.Microsoft.Matrix(
+    M11=0.7071067811865474,
+    M12=-0.7071067811865477,
+    M21=0.7071067811865477,
+    M22=0.7071067811865474,
+    SizingMethod='auto expand'
+  );
 }
 
 .github-fork-ribbon.left {
@@ -24,9 +25,10 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865483, M12=0.7071067811865467, M21=-0.7071067811865467, M22=0.7071067811865483, SizingMethod='auto expand')";
   /* IE6 and 7 */
   filter: progid:DXImageTransform.Microsoft.Matrix(
-           M11=0.7071067811865483,
-           M12=0.7071067811865467,
-           M21=-0.7071067811865467,
-           M22=0.7071067811865483,
-           SizingMethod='auto expand');
+    M11=0.7071067811865483,
+    M12=0.7071067811865467,
+    M21=-0.7071067811865467,
+    M22=0.7071067811865483,
+    SizingMethod='auto expand'
+  );
 }
