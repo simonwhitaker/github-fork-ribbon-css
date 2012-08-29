@@ -22,7 +22,7 @@ Feel free to fork, tweak and send me a pull request.
 
 ### Compiling
 
-If you are going to edit the [SCSS](http://sass-lang.org) source, you will
+If you are going to edit the [SCSS](http://sass-lang.com) source, you will
 need the [Compass](http://compass-style.org) Ruby Gem:
 
 ```
