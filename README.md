@@ -18,4 +18,16 @@ folder, and check the source of the demo page to see how to use it.
 
 Feel free to fork, tweak and send me a pull request.
 
+### Compiling
+
+If you are going to edit the [sass](http://sass-lang.org) source, you will
+need the [compass](http://compass-style.org) Ruby gem:
+
+```
+$ gem install compass
+```
+
+Once that's installed, you can recompile the stylesheets with a simple
+`compass compile`.
+
 **Note**: this project is not sponsored or in any way endorsed by Github.
