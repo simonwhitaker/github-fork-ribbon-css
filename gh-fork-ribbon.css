@@ -48,35 +48,41 @@
   border-color: rgba(255,255,255,0.7);
 }
 
+.github-fork-ribbon-wrapper {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+}
 
-.github-fork-ribbon.right {
-  /* Attach to the right of the page */
-  top: 106px;
-  right: -5px;
+.github-fork-ribbon-wrapper.left {
+  left: 0;
+}
+
+.github-fork-ribbon-wrapper.right {
+  right: 0;
+}
+
+.github-fork-ribbon-wrapper.right .github-fork-ribbon {
+  top: 42px;
+  right: -43px;
 
   /* Rotate the banner 45 degrees */
-  -webkit-transform-origin: right bottom;
   -webkit-transform: rotate(45deg);
-  -moz-transform-origin: right bottom;
   -moz-transform: rotate(45deg);
-  -o-transform-origin: right bottom;
   -o-transform: rotate(45deg);
-  transform-origin: right bottom;
   transform: rotate(45deg);
 }
 
-.github-fork-ribbon.left {
+.github-fork-ribbon-wrapper.left .github-fork-ribbon {
   /* Attach to the left of the page */
-  top: 106px;
-  left: -5px;
+  top: 42px;
+  left: -43px;
 
   /* Rotate the banner -45 degrees */
-  -webkit-transform-origin: left bottom;
   -webkit-transform: rotate(-45deg);
-  -moz-transform-origin: left bottom;
   -moz-transform: rotate(-45deg);
-  -o-transform-origin: left bottom;
   -o-transform: rotate(-45deg);
-  transform-origin: left bottom;
   transform: rotate(-45deg);
 }

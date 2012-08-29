@@ -1,6 +1,6 @@
 /* IE voodoo courtesy of http://stackoverflow.com/a/4617511/263871 and
  * http://www.useragentman.com/IETransformsTranslator */
-.github-fork-ribbon.right {
+.github-fork-ribbon-wrapper.right .github-fork-ribbon {
   /* IE positioning hack (couldn't find a transform-origin alternative for IE) */
   top: -22px;
   right: -22px;
@@ -17,7 +17,7 @@
   );
 }
 
-.github-fork-ribbon.left {
+.github-fork-ribbon-wrapper.left .github-fork-ribbon {
   top: -22px;
   left: -22px;
 
