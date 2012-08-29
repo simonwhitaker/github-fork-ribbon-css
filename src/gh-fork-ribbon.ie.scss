@@ -1,0 +1,37 @@
+.github-fork-ribbon {
+  &.right {
+    /* IE positioning hack (couldn't find a transform-origin alternative for IE 8-) */
+    /* IE9+ is supported in the main CSS */
+    top: -22px;
+    right: -22px;
+
+    /* IE voodoo courtesy of http://stackoverflow.com/a/4617511/263871 and
+     * http://www.useragentman.com/IETransformsTranslator */
+    /* IE8+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865474, M12=-0.7071067811865477, M21=0.7071067811865477, M22=0.7071067811865474, SizingMethod='auto expand')";
+    /* IE6 and 7 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(
+      M11=0.7071067811865474,
+      M12=-0.7071067811865477,
+      M21=0.7071067811865477,
+      M22=0.7071067811865474,
+      SizingMethod='auto expand'
+    );
+  }
+
+  &.left {
+    top: -22px;
+    left: -22px;
+
+    /* IE8+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865483, M12=0.7071067811865467, M21=-0.7071067811865467, M22=0.7071067811865483, SizingMethod='auto expand')";
+    /* IE6 and 7 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(
+      M11=0.7071067811865483,
+      M12=0.7071067811865467,
+      M21=-0.7071067811865467,
+      M22=0.7071067811865483,
+      SizingMethod='auto expand'
+    );
+  }
+}
