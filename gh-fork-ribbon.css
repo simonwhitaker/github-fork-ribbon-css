@@ -22,6 +22,7 @@
   -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
 }
+
 .github-fork-ribbon a {
   /* Set the font */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -64,6 +65,20 @@
   right: 0;
 }
 
+.github-fork-ribbon-wrapper.left-bottom {
+  position: fixed;
+  top: inherit;
+  bottom: 0;
+  left: 0;
+}
+
+.github-fork-ribbon-wrapper.right-bottom {
+  position: fixed;
+  top: inherit;
+  bottom: 0;
+  right: 0;
+}
+
 .github-fork-ribbon-wrapper.right .github-fork-ribbon {
   top: 42px;
   right: -43px;
@@ -85,4 +100,35 @@
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+
+.github-fork-ribbon-wrapper.left-bottom .github-fork-ribbon {
+  /* Attach to the left of the page */
+  top: 75px;
+  left: -64px;
+
+  /* Rotate the banner -45 degrees */
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.github-fork-ribbon-wrapper.left-bottom .github-fork-ribbon a {
+  padding-left: 18px;
+}
+
+.github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon {
+  /* Attach to the left of the page */
+  top: 89px;
+  left: -10px;
+
+  /* Rotate the banner -45 degrees */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon a {
+  padding-left: 15px;
 }
