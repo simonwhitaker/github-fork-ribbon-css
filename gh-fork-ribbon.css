@@ -93,7 +93,6 @@
 }
 
 .github-fork-ribbon-wrapper.left .github-fork-ribbon {
-  /* Attach to the left of the page */
   top: 42px;
   left: -43px;
 
@@ -106,9 +105,8 @@
 
 
 .github-fork-ribbon-wrapper.left-bottom .github-fork-ribbon {
-  /* Attach to the left of the page */
-  top: 75px;
-  left: -64px;
+  top: 80px;
+  left: -43px;
 
   /* Rotate the banner -45 degrees */
   -webkit-transform: rotate(45deg);
@@ -116,21 +114,14 @@
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-.github-fork-ribbon-wrapper.left-bottom .github-fork-ribbon a {
-  padding-left: 18px;
-}
 
 .github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon {
-  /* Attach to the left of the page */
-  top: 89px;
-  left: -10px;
+  top: 80px;
+  right: -43px;
 
   /* Rotate the banner -45 degrees */
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-}
-.github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon a {
-  padding-left: 15px;
 }
