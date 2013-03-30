@@ -59,6 +59,10 @@
   top: 0;
 }
 
+.github-fork-ribbon-wrapper.fixed {
+  position: fixed;
+}
+
 .github-fork-ribbon-wrapper.left {
   left: 0;
 }
