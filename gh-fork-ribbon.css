@@ -25,7 +25,8 @@
   z-index: 9999;
 }
 
-.github-fork-ribbon a {
+.github-fork-ribbon a,
+.github-fork-ribbon a:hover {
   /* Set the font */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
