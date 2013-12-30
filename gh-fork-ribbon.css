@@ -23,6 +23,7 @@
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
 
   z-index: 9999;
+  pointer-events: auto;
 }
 
 .github-fork-ribbon a,
@@ -59,6 +60,7 @@
   overflow: hidden;
   top: 0;
   z-index: 9999;
+  pointer-events: none;
 }
 
 .github-fork-ribbon-wrapper.fixed {
