@@ -1,5 +1,10 @@
 /* IE voodoo courtesy of http://stackoverflow.com/a/4617511/263871 and
  * http://www.useragentman.com/IETransformsTranslator */
+
+ .github-fork-ribbon {
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#000000', EndColorStr='#000000');
+}
+
 .github-fork-ribbon-wrapper.right .github-fork-ribbon {
   /* IE positioning hack (couldn't find a transform-origin alternative for IE) */
   top: -22px;
