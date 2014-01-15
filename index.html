@@ -12,6 +12,16 @@
         h1, h2 {
             font-weight: 400;
         }
+        pre {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        pre:before {
+            content: "$ ";
+            color: #999;
+        }
         .content {
             width: 560px;
             margin: 0 auto;
@@ -64,10 +74,14 @@
             the <a href="https://github.com/simonwhitaker/github-fork-ribbon-css/">CSS files here</a>.
         </p>
         <p>
-            Alternatively, fork the project on
-            GitHub! Start by clicking the ribbon at the top
-            of the page.
+            Alternatively, <a href="https://github.com/simonwhitaker/github-fork-ribbon-css/fork">fork the project on GitHub</a>!
         </p>
+        <h2>Using with Bower</h2>
+        <p>
+            You can install the CSS files
+            using <a href="https://github.com/bower/bower">Bower</a>.
+        </p>
+        <pre>bower install github-fork-ribbon-css</pre>
         <h2>About</h2>
         <p>
             This project was written by
