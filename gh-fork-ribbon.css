@@ -22,17 +22,17 @@
   -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
 
+  /* Set the font */
+  font: 700 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   z-index: 9999;
   pointer-events: auto;
 }
 
 .github-fork-ribbon a,
 .github-fork-ribbon a:hover {
-  /* Set the font */
-  font: 700 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff;
-
   /* Set the text properties */
+  color: #fff;
   text-decoration: none;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
   text-align: center;
