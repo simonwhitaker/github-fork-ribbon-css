@@ -1,4 +1,6 @@
-<polymer-element name="fork-me" attributes="url position">
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="fork-me" attributes="url position color">
 	<template>
 		<style>
 .github-fork-ribbon {
@@ -146,6 +148,15 @@
 		Polymer('fork-me', {
 			url: "https://github.com/Urucas/github-fork-ribbon-css/blob/gh-pages/gh-fork-ribbon.css",
 			position: "left", // [ right | left | right-bottom | left-bottom ]
+			color: "#080",
+			ready: function(){
+				// TODO - add background color support
+				try{
+					var c = this.getElementsByClassName('github-fork-ribbon');
+					c[0].style.backgroundColor = this.color;
+				}catch(e){
+					console.log(e);
+				}
 			}
 		});
 	</script>
