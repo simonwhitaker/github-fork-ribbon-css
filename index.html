@@ -55,15 +55,23 @@
         <link rel="stylesheet" href="gh-fork-ribbon.ie.css">
     <![endif]-->
     <!-- END COPYING HERE -->
+		
+		<!-- 1. Load platform.js for polyfill support. -->
+		<script src="/bower_components/platform/platform.js"></script>
+		
+		<!-- 2. Use an HTML Import to bring in the element. -->
+		<link rel="import" href="/elements/fork-me.html">
+		
+
 </head>
 <body>
     <!-- TOP RIGHT RIBBON: START COPYING HERE -->
-    <div class="github-fork-ribbon-wrapper right">
-        <div class="github-fork-ribbon">
-            <a href="https://github.com/simonwhitaker/github-fork-ribbon-css">Fork me on GitHub</a>
-        </div>
-    </div>
-    <!-- TOP RIGHT RIBBON: END COPYING HERE -->
+
+		<!-- 3. Declare the element. Configure using its attributes. -->
+		<!-- Reduce 3 lines to one -->
+		<fork-me url="https://github.com/urucas/github-fork-ribbon-css" position="right"></fork-me>
+
+		<!-- TOP RIGHT RIBBON: END COPYING HERE -->
 
     <!-- TOP LEFT RIBBON: START COPYING HERE -->
     <div class="github-fork-ribbon-wrapper left">
