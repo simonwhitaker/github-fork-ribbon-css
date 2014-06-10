@@ -8,3 +8,12 @@ See 'em in action! <http://simonwhitaker.github.io/github-fork-ribbon-css/>
 Feel free to fork, tweak and send me a pull request.
 
 Note: this project is not sponsored or in any way endorsed by GitHub.
+
+
+Polymer element
+===============
+
+Add polymer element,
+``` html
+<fork-me url="https://github.com/Urucas/github-fork-ribbon-css" position="right"></fork-me>
+```
