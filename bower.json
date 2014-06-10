@@ -1,11 +1,13 @@
 {
   "name": "github-fork-ribbon-css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://simonwhitaker.github.io/github-fork-ribbon-css/",
   "authors": [
-    "Simon Whitaker"
+    "Simon Whitaker",
+		"Bruno Alassia",
+		"Pamela Prosperi"
   ],
-  "description": "\"Fork me on GitHub\" CSS ribbon",
+  "description": "\"Fork me on GitHub\" CSS ribbon, now with Polymer element",
   "main": [
     "gh-fork-ribbon.css",
     "gh-fork-ribbon.ie.css"
@@ -14,7 +16,8 @@
     "css",
     "fork",
     "GitHub",
-    "ribbon"
+    "ribbon",
+		"polymer"
   ],
   "license": "MIT",
   "ignore": [
