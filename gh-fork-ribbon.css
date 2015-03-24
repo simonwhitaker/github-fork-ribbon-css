@@ -3,8 +3,15 @@
  * https://github.com/simonwhitaker/github-fork-ribbon-css
 */
 
+@font-face {
+  font-family: 'Collegiate';
+  src: url('COLLEGIA.otf') format('opentype'),
+       url('COLLEGIA.ttf') format('truetype');
+}
+
 /* Left will inherit from right (so we don't need to duplicate code) */
 .github-fork-ribbon {
+
   /* The right and left classes determine the side we attach our banner to */
   position: absolute;
 
@@ -28,7 +35,8 @@
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
 
   /* Set the font */
-  font: 700 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 700 15px "Collegiate", sans-serif;
+
 
   z-index: 9999;
   pointer-events: auto;
