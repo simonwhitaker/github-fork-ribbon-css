@@ -8,7 +8,9 @@ in CSS, hence resolution-independent.
 CDN provided by [cdnjs](https://cdnjs.com/libraries/github-fork-ribbon-css)
 ```
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
+<!--[if lt IE 9]>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
+<![endif]-->
 ```
 
 See 'em in action! <http://simonwhitaker.github.io/github-fork-ribbon-css/>
