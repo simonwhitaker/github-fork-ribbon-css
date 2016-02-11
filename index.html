@@ -39,15 +39,15 @@
         }
 
         /* The default background color is #c00 */
-        .right-bottom .github-fork-ribbon {
+        .github-fork-ribbon.right-bottom:before {
             background-color: #090;
         }
 
-        .right .github-fork-ribbon {
+        .github-fork-ribbon.right-top:before {
             background-color: #f80;
         }
 
-        .left-bottom .github-fork-ribbon {
+        .github-fork-ribbon.left-bottom:before {
             background-color: #333;
         }
     </style>
@@ -61,19 +61,11 @@
 </head>
 <body>
     <!-- TOP RIGHT RIBBON: START COPYING HERE -->
-    <div class="github-fork-ribbon-wrapper right">
-        <div class="github-fork-ribbon">
-            <a href="https://github.com/simonwhitaker/github-fork-ribbon-css">Fork me on GitHub</a>
-        </div>
-    </div>
+    <a class="github-fork-ribbon right-top" href="https://github.com/simonwhitaker/github-fork-ribbon-css" title="Fork me on GitHub">Fork me on GitHub</a>
     <!-- TOP RIGHT RIBBON: END COPYING HERE -->
 
     <!-- TOP LEFT RIBBON: START COPYING HERE -->
-    <div class="github-fork-ribbon-wrapper left">
-        <div class="github-fork-ribbon">
-            <a href="https://github.com/simonwhitaker/github-fork-ribbon-css">Fork me on GitHub</a>
-        </div>
-    </div>
+    <a class="github-fork-ribbon left-top" href="https://github.com/simonwhitaker/github-fork-ribbon-css" title="Fork me on GitHub">Fork me on GitHub</a>
     <!-- TOP LEFT RIBBON: END COPYING HERE -->
     <div class="content">
 
@@ -100,13 +92,20 @@
         <pre>bower install github-fork-ribbon-css</pre>
         <h2>Using with cdnjs</h2>
         <p>
-            You can use github-fork-ribbon-css without installation via <a href="https://cdnjs.com/libraries/github-fork-ribbon-css">cdnjs.com</a>.
+            You can use github-fork-ribbon-css without installation via <a href="https://cdnjs.com/libraries/github-fork-ribbon-css">cdnjs.com</a>.<br />
+            Copy the following code into the <strong>&lt;head&gt;</strong> of your page:
         </p>
         <code>
-          &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" /&gt;<br/>
+          &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" /&gt;<br/>
           &lt;!--[if lt IE 9]&gt;<br/>
-              &nbsp;&nbsp;&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" /&gt;<br/>
+              &nbsp;&nbsp;&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" /&gt;<br/>
           &lt;![endif]--&gt;
+        </code>
+        <p>
+            And this into the <strong>&lt;body&gt;</strong> of your page:
+        </p>
+        <code>
+          &lt;a class="github-fork-ribbon" href="http://url.to-your.repo" title="Fork me on GitHub"&gt;Fork me on GitHub&lt;/a&gt;
         </code>
 
         <h2>About</h2>
@@ -117,19 +116,11 @@
         </p>
     </div>
     <!-- BOTTOM RIGHT RIBBON: START COPYING HERE -->
-    <div class="github-fork-ribbon-wrapper right-bottom">
-        <div class="github-fork-ribbon">
-            <a href="https://github.com/simonwhitaker/github-fork-ribbon-css">Fork me on GitHub</a>
-        </div>
-    </div>
+    <a class="github-fork-ribbon right-bottom fixed" href="https://github.com/simonwhitaker/github-fork-ribbon-css" title="Fork me on GitHub">Fork me on GitHub</a>
     <!-- BOTTOM RIGHT RIBBON: END COPYING HERE -->
 
     <!-- BOTTOM LEFT RIBBON: START COPYING HERE -->
-    <div class="github-fork-ribbon-wrapper left-bottom">
-        <div class="github-fork-ribbon">
-            <a href="https://github.com/simonwhitaker/github-fork-ribbon-css">Fork me on GitHub</a>
-        </div>
-    </div>
+    <a class="github-fork-ribbon left-bottom fixed" href="https://github.com/simonwhitaker/github-fork-ribbon-css" title="Fork me on GitHub">Fork me on GitHub</a>
     <!-- BOTTOM LEFT RIBBON: END COPYING HERE -->
 </body>
 </html>
