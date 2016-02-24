@@ -5,13 +5,22 @@ in CSS, hence resolution-independent.
 
 ## Using "Fork me on GitHub" CSS ribbon with a CDN
 
-CDN provided by [cdnjs](https://cdnjs.com/libraries/github-fork-ribbon-css)
+You can use github-fork-ribbon-css without installation via [cdnjs.com](https://cdnjs.com/libraries/github-fork-ribbon-css).
+
+Copy the following code into the `<head>` of your page:
+
 
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
 <!--[if lt IE 9]>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" />
 <![endif]-->
+```
+
+And this into the `<body>` of your page:
+
+```html
+<a class="github-fork-ribbon" href="http://url.to-your.repo" title="Fork me on GitHub">Fork me on GitHub</a>
 ```
 
 See 'em in action! <https://simonwhitaker.github.io/github-fork-ribbon-css/>
