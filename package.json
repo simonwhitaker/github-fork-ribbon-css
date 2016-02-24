@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/simonwhitaker/github-fork-ribbon-css/issues"
   },
-  "homepage": "http://simonwhitaker.github.io/github-fork-ribbon-css/"
+  "homepage": "http://simonwhitaker.github.io/github-fork-ribbon-css/",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/simonwhitaker/github-fork-ribbon-css.git",
+    "basePath": "",
+    "files": [
+      "gh-fork-ribbon.css",
+      "gh-fork-ribbon.ie.css"
+    ]
+  }
 }
