@@ -23,6 +23,14 @@ And this into the `<body>` of your page:
 <a class="github-fork-ribbon" href="http://url.to-your.repo" title="Fork me on GitHub">Fork me on GitHub</a>
 ```
 
+## Using "Fork me on GitHub" CSS ribbon with bower
+
+```
+bower install github-fork-ribbon-css
+```
+(add the ```--save``` option to the command above to auto-update your bower.json file.
+
+
 See 'em in action! <https://simonwhitaker.github.io/github-fork-ribbon-css/>
 
 Feel free to fork, tweak and send me a pull request.
