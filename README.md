@@ -25,6 +25,7 @@ And this into the `<body>` of your page:
 
 ## Using "Fork me on GitHub" CSS ribbon with bower
 
+You can install the CSS files using [Bower](https://github.com/bower/bower).
 ```
 bower install github-fork-ribbon-css
 ```
