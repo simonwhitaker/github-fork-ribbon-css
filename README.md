@@ -12,6 +12,7 @@ You can install the CSS files using [Bower](https://github.com/bower/bower).
 ## Using with npm
 
 You can also install the CSS files using [npm](https://www.npmjs.com/).
+
 ```npm install --save github-fork-ribbon-css```
 
 ## Using "Fork me on GitHub" CSS ribbon with a CDN
