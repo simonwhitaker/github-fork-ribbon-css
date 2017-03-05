@@ -1,5 +1,6 @@
 {
   "name": "github-fork-ribbon-css",
+  "main": "gh-fork-ribbon.css",
   "version": "0.2.1",
   "description": "\"Fork me on GitHub\" CSS ribbon",
   "scripts": {
