@@ -32,7 +32,7 @@ Copy the following code into the `<head>` of your page:
 And this into the `<body>` of your page:
 
 ```html
-<a class="github-fork-ribbon" href="http://url.to-your.repo" title="Fork me on GitHub">Fork me on GitHub</a>
+<a class="github-fork-ribbon" href="http://url.to-your.repo" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 ```
 
 See 'em in action! <https://simonwhitaker.github.io/github-fork-ribbon-css/>
