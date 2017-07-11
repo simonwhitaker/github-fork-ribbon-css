@@ -68,8 +68,8 @@
 }
 
 .github-fork-ribbon:after {
-  /* Set the text from the title attribute */
-  content: attr(title);
+  /* Set the text from the data-ribbon attribute */
+  content: attr(data-ribbon);
 
   /* Set the text properties */
   color: #fff;
