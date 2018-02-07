@@ -21,6 +21,10 @@
   position: fixed;
 }
 
+.github-fork-ribbon:hover, .github-fork-ribbon:active {
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
 .github-fork-ribbon:before, .github-fork-ribbon:after {
   /* The right and left classes determine the side we attach our banner to */
   position: absolute;
