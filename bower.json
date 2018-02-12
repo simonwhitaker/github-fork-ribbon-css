@@ -7,8 +7,7 @@
   ],
   "description": "\"Fork me on GitHub\" CSS ribbon",
   "main": [
-    "gh-fork-ribbon.css",
-    "gh-fork-ribbon.ie.css"
+    "gh-fork-ribbon.css"
   ],
   "keywords": [
     "css",

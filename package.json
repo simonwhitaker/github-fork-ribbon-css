@@ -26,8 +26,7 @@
     "target": "git://github.com/simonwhitaker/github-fork-ribbon-css.git",
     "basePath": "",
     "files": [
-      "gh-fork-ribbon.css",
-      "gh-fork-ribbon.ie.css"
+      "gh-fork-ribbon.css"
     ]
   }
 }
