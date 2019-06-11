@@ -22,7 +22,7 @@ You can use github-fork-ribbon-css without installation via [cdnjs.com](https://
 Copy the following code into the `<head>` of your page:
 
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
 ```
 
 And this into the `<body>` of your page:

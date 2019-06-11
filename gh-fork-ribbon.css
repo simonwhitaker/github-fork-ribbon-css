@@ -1,5 +1,5 @@
 /*!
- * "Fork me on GitHub" CSS ribbon v0.2.2 | MIT License
+ * "Fork me on GitHub" CSS ribbon v0.2.3 | MIT License
  * https://github.com/simonwhitaker/github-fork-ribbon-css
 */
 
@@ -31,10 +31,10 @@
   display: block;
   width: 15.38em;
   height: 1.54em;
-  
+
   top: 3.23em;
   right: -3.23em;
-  
+
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
