@@ -21,6 +21,11 @@
   position: fixed;
 }
 
+/* Fix for Safari when printing */
+.github-fork-ribbon.printer {
+  -webkit-print-color-adjust: exact;
+}
+
 .github-fork-ribbon:hover, .github-fork-ribbon:active {
   background-color: rgba(0, 0, 0, 0.0);
 }
