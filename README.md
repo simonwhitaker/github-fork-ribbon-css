@@ -31,6 +31,14 @@ And this into the `<body>` of your page:
 <a class="github-fork-ribbon" href="https://url.to-your.repo" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 ```
 
+## Styling
+
+Set the background colour using the `::before` selector. For example:
+
+```html
+<style>.github-fork-ribbon:before { background-color: #333; }</style>
+```
+
 See 'em in action! <https://simonwhitaker.github.io/github-fork-ribbon-css/>
 
 Feel free to fork, tweak and send me a pull request.
